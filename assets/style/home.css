@@ -9,3 +9,8 @@
   align-items: center;
   height: 100vh;
 }
+
+img {
+  min-width: 50%;
+  margin: 10%;
+}
