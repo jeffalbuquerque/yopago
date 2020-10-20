@@ -21,26 +21,15 @@ h2 span {
   color: #00cd7f;
 }
 
-/* .main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
-
 .hero {
   background: #00cd7f;
   background-size: contain;
+  height: 100vh;
+  color: #ffffff;
 }
 
-.call-to-action-area {
+.hero-content {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
 }
 
 .icons {
@@ -58,7 +47,35 @@ h2 span {
   margin-top: -100px;
 }
 
-.btn {
-  border-radius: 100px;
-  padding: 10px 40px;
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  h1,
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .hero {
+    height: auto;
+  }
+  .how p {
+    font-size: 0.8em;
+  }
+  .hero-content {
+    height: auto;
+  }
+  .mobile {
+    margin-top: 20px;
+  }
+  .icons {
+    min-height: 60px;
+  }
 }
