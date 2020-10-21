@@ -55,6 +55,17 @@ h2 span {
   border: none;
 }
 
+footer {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  padding: 2%;
+  font-size: 0.8em;
+}
+
+footer p {
+  margin: 0;
+}
+
 @media screen and (max-width: 600px) {
   h1,
   h2 {
