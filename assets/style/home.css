@@ -21,8 +21,12 @@ h2 span {
   color: #00cd7f;
 }
 
+body {
+  background: url("../images/yopago-hero-background.png") no-repeat;
+}
+
 .hero {
-  background: #00cd7f;
+  background: url("../images/yopago-hero-image.png") no-repeat right 0;
   background-size: contain;
   height: 100vh;
   color: #ffffff;
@@ -55,6 +59,12 @@ h2 span {
   border: none;
 }
 
+.btn {
+  border-radius: 100px;
+  font-size: 0.8em;
+  padding: 12px 40px;
+}
+
 footer {
   background-color: #3e3e3e;
   color: #ffffff;
@@ -76,6 +86,7 @@ footer p {
   }
   .hero {
     height: auto;
+    padding-top: 70% !important;
   }
   .how p {
     font-size: 0.8em;
