@@ -29,7 +29,6 @@ body {
   background: url("../images/yopago-hero-image.png") no-repeat right 0;
   background-size: contain;
   height: 100vh;
-  color: #ffffff;
 }
 
 .hero-content {
@@ -87,6 +86,7 @@ footer p {
   .hero {
     height: auto;
     padding-top: 70% !important;
+    color: #ffffff;
   }
   .how p {
     font-size: 0.8em;
